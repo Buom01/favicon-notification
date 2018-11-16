@@ -1,9 +1,7 @@
+This repository was originally forked from [https://github.com/igorprado/favicon-notification](https://github.com/igorprado/favicon-notification).
+
 # Favicon Notification
 #### A small script (~ 1.4kB minified) to add notification bubble to favicon
-
-## Demo
-
-* [http://igorprado.github.io/favicon-notification](http://igorprado.github.io/favicon-notification)
 
 ## Favicon
 
@@ -19,23 +17,12 @@ Run:
 npm install favicon-notification
 ```
 
-### Bower
-
-Run
-
-```
-bower install favicon-notification
-```
-
-
 ## Using
 
 ### NPM
 
-If you are using Webpack or Browserify, do:
-
 ```js
-var FaviconNotification = require('favicon-notification');
+let FaviconNotification = require('favicon-notification');
 
 // When your app loads
 FaviconNotification.init({
@@ -67,26 +54,6 @@ define(['FaviconNotification'], function(FaviconNotification){
   // If you want to remove the notification
   FaviconNotification.remove();
 });
-```
-
-### Bower
-
-Load the script file:
-```html
-<script src="./bower_components/favicon-notification/dist/favicon-notification.min.js"></script>
-
-<script>
-// When your app loads
-FaviconNotification.init({
-  color: '#000000'
-});
-
-// On some event
-FaviconNotification.add();
-
-// If you want to remove the notification
-FaviconNotification.remove();
-</script>
 ```
 
 ## Methods
