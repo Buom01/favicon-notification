@@ -1,6 +1,6 @@
 {
   "name": "@mnowotny/favicon-notification",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "A small script to add notification bubble to favicon",
   "main": "src/index.js",
   "keywords": [
