@@ -1,14 +1,8 @@
 {
-  "name": "favicon-notification",
+  "name": "@mnowotny/favicon-notification",
   "version": "0.1.4",
   "description": "A small script to add notification bubble to favicon",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run minify & npm run copy",
-    "minify": "uglifyjs src/index.js -cm -o dist/favicon-notification.min.js -r 'require,exports,define'",
-    "copy": "cp src/index.js dist/favicon-notification.js"
-  },
   "keywords": [
     "favicon",
     "notification",
@@ -16,15 +10,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/igorprado/favicon-notification"
+    "url": "https://github.com/mnowotny/favicon-notification"
   },
   "bugs": {
-    "url": "https://github.com/igorprado/favicon-notification/issues"
+    "url": "https://github.com/mnowotny/favicon-notification/issues"
   },
-  "homepage": "https://github.com/igorprado/favicon-notification",
-  "author": "Igor Prado",
-  "license": "MIT",
-  "devDependencies": {
-    "uglify-js": "^2.4.23"
-  }
+  "homepage": "https://github.com/mnowotny/favicon-notification",
+  "author": {
+    "name": "Marvin Nowotny",
+    "email": "development@mnowotny.com"
+  },
+  "license": "MIT"
 }
